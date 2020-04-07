@@ -19,6 +19,28 @@ public class Main {
             ArrayList<Integer> result = organizer.concatAndSort(list1,list2,list3);
             System.out.println(result);
 
+            Player Tom = new Player("Tom");
+            Player John = new Player("John");
+            Player James = new Player("James");
+            Player Henry = new Player("Henry");
+
+            Die die = new Die();
+
+            for(int i = 0;i < 5;i++)
+            {
+                    Tom.addScore(die.rollDie());
+                    John.addScore(die.rollDie());
+                    James.addScore(die.rollDie());
+                    Henry.addScore(die.rollDie());
+
+
+            }
+            System.out.println(Tom.toString());
+            System.out.println(John.toString());
+            System.out.println(James.toString());
+            System.out.println(Henry.toString());
+
+
 
 
         }
