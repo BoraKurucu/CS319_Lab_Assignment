@@ -18,6 +18,7 @@ public class Main {
             ArrayOrganizer organizer = new ArrayOrganizer();
             ArrayList<Integer> result = organizer.concatAndSort(list1,list2,list3);
             System.out.println(result);
+            System.out.println("Successfully reverted in Git");
 
 
 
