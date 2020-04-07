@@ -25,6 +25,8 @@ public class Player {
     public void addScore(int point)
     {
         this.score += point;
+
+        
     }
     @Override
     public String toString() {
